@@ -1,0 +1,19 @@
+<div id='old'>
+  <table>
+    <tr>
+      <th class='long'>Long URL</th>
+      <th class='short'>Short URL</th>
+    </tr>
+
+    <% @tinee_urls.each do |entry| %>
+      <tr>
+        <td>
+          <%= entry.url%>
+        <td>
+            <span><%=complete_url(entry.encoded_id)%><span>
+        </td>
+        <%end%>
+
+  </table>
+  <%= will_paginate @tinee_urls %>
+</div>

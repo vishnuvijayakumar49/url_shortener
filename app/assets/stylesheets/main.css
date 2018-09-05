@@ -1,0 +1,33 @@
+/************************************
+ * Setting up some defaults, resets *
+ ************************************/
+
+
+/************
+ * The Rest *
+ ************/
+
+
+#center_box {
+  margin: 20px 0px 0px 0px;
+  background: #eeeeee;
+  padding: 15px 0px 15px 0px;
+}
+
+#login { text-align: center; }
+#submit_login { width: 260px; margin-top: 5px; }
+
+
+#old { margin-top: 20px; }
+#old table { width: 700px; margin: 0 auto; }
+#old th { text-align: left; padding: 10px; }
+#old td { padding: 10px; }
+
+
+
+#footer {
+  margin-top: 20px;
+  line-height: 19px;
+  text-align: center;
+  font-size: 80%;
+}
